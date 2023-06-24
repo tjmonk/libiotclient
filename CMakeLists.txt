@@ -21,7 +21,7 @@ set_target_properties( ${PROJECT_NAME} PROPERTIES
 target_link_libraries( ${PROJECT_NAME} rt )
 
 set(IOTCLIENT_HEADERS
-    inc/iotclient.h
+    inc/iotclient/iotclient.h
 )
 
 set_target_properties(${PROJECT_NAME} PROPERTIES PUBLIC_HEADER "${IOTCLIENT_HEADERS}")

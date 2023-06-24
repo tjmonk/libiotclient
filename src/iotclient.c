@@ -63,7 +63,7 @@ SOFTWARE.
 #include <semaphore.h>
 #include <string.h>
 #include <stdbool.h>
-#include "iotclient.h"
+#include <iotclient/iotclient.h>
 
 /*==============================================================================
         Private definitions
